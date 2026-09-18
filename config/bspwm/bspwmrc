@@ -51,10 +51,9 @@ pgrep -x redshift > /dev/null || redshift &
 picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 
 # == autostart ==
-pkill flameshot; flameshot &
+AyuGram &
+discord &
+xrandr --output HDMI-0 --mode 1920x1080 --rate 180 &
 
 # launch clipboard manager daemon
 pkill greenclip; greenclip daemon &
-
-# run cursor tracker
-pkill cursor_tracker ; ~/bin/cursor_tracker.sh
