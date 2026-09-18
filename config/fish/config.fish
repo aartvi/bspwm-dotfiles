@@ -9,6 +9,8 @@ alias feh="feh --scale-down"
 
 alias reflector_update="sudo reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist"
 
+alias sy="sudo pacman -Syu && yay -Syu"
+
 # Display critical errors
 alias syslog_emerg="sudo dmesg --level=emerg,alert,crit"
 
@@ -34,4 +36,3 @@ set -gx BROWSER /usr/bin/firefox
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-
