@@ -90,6 +90,7 @@ BASE_PACKAGES = [
     "curl",
     "gnupg",
     "inxi",
+    "spectacle", # Пакет для скриншотов
 ]
 
 DEV_PACKAGES = [
