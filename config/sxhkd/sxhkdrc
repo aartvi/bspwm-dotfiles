@@ -28,36 +28,35 @@ super + {d,x}
     {setxkbmap -layout us;rofi -m -1 -show drun,setxkbmap -layout us; sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,n,p,t,c,v,i,x,q,k,l,e,s}
+super + shift + {f,p,c,i,x,k,l,e,s,d,o,a}
 	{firefox, \
-	thunar, \
-	pavucontrol, \
-	Telegram, \
+	prismlauncher, \
 	setxkbmap -layout us; sh $HOME/bin/calculator, \
-	virtualbox, \
 	firefox --private-window, \
 	sh $HOME/bin/xcolor-pick, \
-	sh $HOME/bin/bible, \
 	alacritty -e calcurse, \
 	sh $HOME/bin/screen-lock, \
 	setxkbmap -layout us; rofi -modi emoji -m -1 -show emoji, \
-	setxkbmap -layout us; alacritty -e sh $HOME/bin/timer}
+	steam, \
+	discord, \
+	obs, \
+	AyuGram}
      
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
     sh $HOME/bin/volume{ --up, --down, --toggle}
 
-# Brightness controls
-XF86MonBrightness{Up,Down}
-    sh $HOME/bin/brightness{ --up, --down}
-
 # Clipboard manager
 super + v
     sh $HOME/bin/clipboard-menu
 
+# thunar
+super + e
+	thunar
+
 # screenshot
-Print
-    flameshot gui
+super + q
+    spectacle
 
 #
 #
