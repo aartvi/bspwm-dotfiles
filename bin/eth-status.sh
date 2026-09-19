@@ -4,14 +4,14 @@
 if ping -q -c 1 -W 1 8.8.8.8 >/dev/null 2>&1; then
   # Интернет есть (Зеленый значок)
   # Действие по клику добавлено по аналогии с вашим wlan модулем
-  echo "%{A1:sh $HOME/bin/wifimenu:}%{F#A3BE8C}<U+F0200>%{F-} %{A}"
+  echo "%{A1:sh $HOME/bin/wifimenu:}%{F#A3BE8C}󰈀%{F-} %{A}"
 else
    # Интернета нет. Проверяем, поднят ли проводной интерфейс (названия обычно начинаются на 'e' или 'en')
   if ip link show | grep -E '^[0-9]+: (e|en).*state UP' >/dev/null 2>&1; then
   # Провод подключен, но интернета нет (Оранжевый значок с предупреждением)
-    echo "%{A1:sh $HOME/bin/wifimenu:}%{F#EBCB8B}<U+F0200>⚠%{F-} %{A}"
+    echo "%{A1:sh $HOME/bin/wifimenu:}%{F#EBCB8B}󰈀⚠%{F-} %{A}"
   else
     # Провод физически отключен (Красный значок)
-    echo "%{A1:sh $HOME/bin/wifimenu:}%{F#D35F5E}<U+F0202>%{F-} %{A}"
+    echo "%{A1:sh $HOME/bin/wifimenu:}%{F#D35F5E}󰈂%{F-} %{A}"
   fi
 fi
