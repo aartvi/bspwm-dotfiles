@@ -54,8 +54,7 @@ picom --config $HOME/.config/bspwm/picom_configurations/1.conf &
 AyuGram &
 discord &
 xrandr --output HDMI-0 --mode 1920x1080 --rate 180 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # launch clipboard manager daemon
 pkill greenclip; greenclip daemon &
-
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
