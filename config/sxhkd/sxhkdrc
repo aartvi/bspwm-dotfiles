@@ -28,9 +28,8 @@ super + {d,x}
     {setxkbmap -layout us;rofi -m -1 -show drun,setxkbmap -layout us; sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,p,c,i,x,k,l,e,s,d,o,a}
+super + shift + {f,c,i,x,k,l,e,s,d,o,a}
 	{firefox, \
-	prismlauncher, \
 	setxkbmap -layout us; sh $HOME/bin/calculator, \
 	firefox --private-window, \
 	sh $HOME/bin/xcolor-pick, \
