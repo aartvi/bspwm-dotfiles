@@ -84,6 +84,7 @@ BASE_PACKAGES = [
     "inxi",
     "spectacle", # Пакет для скриншотов
     "polkit-gnome",
+    "discord", # Мессенджер
 ]
 
 DEV_PACKAGES = [
