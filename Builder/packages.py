@@ -75,22 +75,15 @@ BASE_PACKAGES = [
     "cava",  # Вывод спектра для музыки
     "screenfetch",  # Вывод информации о системе и железе
     "power-profiles-daemon", # Демон для работы питания батареи
-    "steam", # Игровая площадка
-    "discord", # Мессенджер
-    "jre-openjdk", # Java
-    "jre8-openjdk", # Java 8 version
     "wine", # Пакет для 
     "ufw", # Брандмауер
     "bpytop",
-    "figlet",
-    "toilet",
-    "sl",
-    "cmatrix",
     "ntfs-3g", # Драйвер для ntfs разделов
     "curl",
     "gnupg",
     "inxi",
     "spectacle", # Пакет для скриншотов
+    "polkit-gnome",
 ]
 
 DEV_PACKAGES = [
@@ -132,12 +125,9 @@ AUR_PACKAGES = [
     "arttime-git",  # Консольный таймер и секундомер
     "ayugram-desktop", # Мод на телеграм
     "onlyoffice", # Пакет для офиса
-    "hollywood",
     "tty-clock",
     "neofetch", # Вывод информации о системе и железе
     "ventoy",
     "qbittorrent", 
     "visual-studio-code-bin", # Редактор кода
-    "prismlauncher", # Лаунчер Майнкрафта
-    "elyprismlauncher-bin", # Лаунчер Майнкрафта
 ]
