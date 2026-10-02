@@ -26,7 +26,7 @@ super + {d,x}
     {setxkbmap -layout us;rofi -m -1 -show drun,setxkbmap -layout us; sh $HOME/bin/powermenu}
 
 # Launch Applications
-super + shift + {f,c,i,x,k,l,e,d,o,a}
+super + shift + {f,c,i,x,k,l,e,d,o,a,s,p}
 	{firefox, \
 	setxkbmap -layout us; sh $HOME/bin/calculator, \
 	firefox --private-window, \
@@ -36,7 +36,9 @@ super + shift + {f,c,i,x,k,l,e,d,o,a}
 	setxkbmap -layout us; rofi -modi emoji -m -1 -show emoji, \
 	discord, \
 	obs, \
-	AyuGram}
+	AyuGram, \
+	steam, \
+	prismlauncher}
      
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
