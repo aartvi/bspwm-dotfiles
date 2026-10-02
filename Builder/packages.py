@@ -85,6 +85,14 @@ BASE_PACKAGES = [
     "spectacle", # Пакет для скриншотов
     "polkit-gnome",
     "discord", # Мессенджер
+    "sl",
+    "cmatrix",
+    "figlet",
+    "toilet",
+    "winetricks",
+    "lutris",
+    "steam",
+    "nwg-look",
 ]
 
 DEV_PACKAGES = [
@@ -114,6 +122,7 @@ DEV_PACKAGES = [
     "hexyl",  # Hex дампер
     "shotcut",  # Монтаж видео
     "nodejs",
+    "vlc",
 ]
 
 AUR_PACKAGES = [
@@ -131,4 +140,11 @@ AUR_PACKAGES = [
     "ventoy",
     "qbittorrent", 
     "visual-studio-code-bin", # Редактор кода
+    "logmein-hamachi",
+    "haguichi",
+    "nbtexplorer",
+    "prismlauncher",
+    "elyprismlauncher-bin",
+    "minecraft-launhcer",
+    "hollywood",
 ]
