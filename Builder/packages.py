@@ -123,6 +123,8 @@ DEV_PACKAGES = [
     "shotcut",  # Монтаж видео
     "nodejs",
     "vlc",
+    "jre-openjdk", # Java
+    "jre8-openjdk", # Java 8 version
 ]
 
 AUR_PACKAGES = [
